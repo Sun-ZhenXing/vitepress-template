@@ -174,7 +174,7 @@ export default withMermaid({
 
   vite: {
     plugins: [
-      tailwindcss() as any,
+      tailwindcss(),
       AutoSidebarPlugin({
         collapsed: false,
         titleFromFile: true,
